@@ -32,21 +32,23 @@
     <title>Gig Speed Networks</title>
   </head>
   <body>
-    <nav></nav>
-    <header class="landing_page">
-      Gig Speed Networks
-      <p>Your one stop <em>low voltage</em> shop</p>
-      <div class="landing">
-        <h1>Design, Installation, & Service</h1>
-        <p>
-          Our company offers technology infrastructure design, installation, and
-          service. <br />Whether it's your business or home, we are here to make
-          technology work for you!
-        </p>
-      </div>
-    </header>
+    <nav>
+      <header class="landing_page">
+        Gig Speed Networks
+        <p>Your one stop <em>low voltage</em> shop</p>
+        <div class="landing">
+          <h1>Design, Installation, & Service</h1>
+          <p>
+            Our company offers technology infrastructure design, installation,
+            and service. <br />Whether it's your business or home, we are here
+            to make technology work for you!
+          </p>
+        </div>
+      </header>
+    </nav>
+
     <div class="wrapper">
-      <div class="services">
+      <section class="services">
         <h2>Services</h2>
         <div class="service-columns">
           <div class="service-col">
@@ -83,21 +85,20 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="quote">
+      </section>
+      <section class="quote">
         <h2>Quotes</h2>
         <p>
-          Request a competitive quote from us today. <br />
+          Request a competetive quote from us today. <br />
           We take the steps necessary to prepare your project for flawless
           execution every time. <br />We accept
           <em> Bitcoin, Bitcoin Cash, Monero,</em>
           and other forms of cryptocurrency as payment methods.
         </p>
-        <button id="quote-btn">
-          <a href="mailto:sales@gigspeednet.com">Request Quote</a>
-        </button>
-      </div>
-      <div class="careers">
+        <a class="button" href="pages/requestForm.html">Request Quote</a>
+      </section>
+      <div class="modal" id="quotesModal"></div>
+      <section class="careers">
         <h2>Careers</h2>
         <p>
           Our company is looking for qualified technicians to complete installs
@@ -105,11 +106,10 @@
           our company. Email your resume with position applying for in the
           subject line.
         </p>
-        <button id="apply">
-          <a href="mailto:rbriggs@gigspeednet.com">Apply</a>
-        </button>
-      </div>
-      <div class="about">
+
+        <a class="button" href="mailto:rbriggs@gigspeednet.com">Apply</a>
+      </section>
+      <section class="about">
         <h2>About</h2>
         <p>
           Based in Northeastern Ohio, Gig Speed Networks service all of the
@@ -121,8 +121,8 @@
           Technologies Certified Partner. We actively complete work through
           Field Nation work platform.
         </p>
-      </div>
-      <div class="contact">
+      </section>
+      <section class="contact">
         <h2>Contact</h2>
         <p>
           We can be reached via email
@@ -133,7 +133,7 @@
           >
           as well!
         </p>
-      </div>
+      </section>
       <footer>
         Copyright &copy; <br />
         Gig Speed Networks LLC

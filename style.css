@@ -2,11 +2,9 @@
   font-family: "Oswald", sans-serif;
   margin: 0;
   line-height: 1.8;
+  box-sizing: border-box;
 }
-.landing_page {
-  display: block;
-  text-align: center;
-  font-size: 2rem;
+nav {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
@@ -16,6 +14,11 @@
     url(images/earthbanner.jpg);
   background-position: center;
   background-size: cover;
+}
+header {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
   color: rgba(245, 245, 245, 0.795);
 }
 .landing_page p {
@@ -84,38 +87,86 @@ h2 {
     justify-content: space-between;
   }
 }
-#quote-btn,
-#apply {
-  border: 1px solid black;
-  border-radius: 10px;
-  background: transparent;
-  margin: 20px 0px;
-  padding: 10px 30px;
-  position: relative;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 700;
-  color: black;
-  font-weight: 300;
+.quote p,
+.careers p {
+  padding-bottom: 15px;
 }
-#quote-btn a,
-#apply a {
+.button {
   text-decoration: none;
-  color: black;
-}
-#quote-btn:hover,
-#apply:hover {
-  border: 1px solid dodgerblue;
-  background: dodgerblue;
+  background-color: dodgerblue;
   color: whitesmoke;
-  transition: 0.5s;
+  padding: 8px 14px;
+  border-radius: 20px;
 }
-#quote-btn a:hover,
-#apply a:hover {
-  color: whitesmoke;
-  transition: 0.5s;
+.button:hover {
+  background-color: whitesmoke;
+  color: rgba(1, 1, 49, 1);
+  cursor: pointer;
+  transition: 0.3s ease-in;
 }
 .contact a {
   text-decoration: none;
+  color: rgba(1, 1, 49, 1);
   cursor: pointer;
+}
+.requestForm {
+  background-image: linear-gradient(
+      rgba(1, 1, 49, 0.685),
+      rgba(1, 1, 49, 0.774)
+    ),
+    url(images/earthbanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  max-width: 400px;
+  margin: 15px auto;
+  background-color: rgba(245, 245, 245, 0.4);
+  box-shadow: 0px 0px 25px rgb(212, 211, 211);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  color: rgba(1, 1, 49, 1);
+  font-weight: 600;
+}
+.information input {
+  opacity: 0.5;
+}
+.information input {
+  width: 100%;
+}
+
+textarea {
+  margin-top: 10px;
+  max-width: 360px;
+  resize: vertical;
+  opacity: 0.5;
+}
+#submitRequest {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#submitRequest:hover {
+  background-color: rgba(1, 1, 49, 0.3);
+  color: rgba(1, 1, 49, 1);
+  transition: 0.3s ease;
+}
+.quoteForm {
+  color: rgba(245, 245, 245, 0.795);
+  text-align: center;
+}
+.thankYou {
+  margin-top: 40vh;
+  height: 100vh;
+  color: whitesmoke;
+  text-align: center;
+}
+.thankYou p {
+  padding-bottom: 30px;
 }

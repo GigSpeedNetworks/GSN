@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Request a competitive quote from our company"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Request Quote</title>
+  </head>
+  <body class="requestForm">
+    <section class="quoteForm">
+      <h1>Request A Quote</h1>
+      <form
+        action="https://formsubmit.co/82279663b05bbb711d9b5a9779921552"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="_next"
+          value="http://www.gigspeednetworks.com/pages/thanks.html"
+        />
+        <div class="information">
+          <label for="companyName" id="companyName">Company Name</label>
+          <input type="text" name="companyName" id="companyName" />
+
+          <label for="firstName" id="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" required />
+
+          <label for="lastName" id="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" required />
+
+          <label for="tele" id="tele">Telephone Number</label>
+          <input type="tel" name="tele" id="tele" />
+
+          <label for="email" id="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <fieldset>
+          <legend>Service Type</legend>
+          <div>
+            <input type="radio" name="design" id="serviceType" value="design" />
+            <label for="design">Design</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="serviceType"
+              id="serviceType"
+              value="installation"
+            />
+            <label for="installation">Installation</label>
+          </div>
+          <div>
+            <input type="radio" name="repair" id="serviceType" value="repair" />
+            <label for="repair">Repair</label>
+          </div>
+        </fieldset>
+        <fieldset class="serviceRequested">
+          <legend>Services Requested</legend>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested"
+              id="serviceRequested"
+              value="av"
+            />
+            <label for="av">Audio/Visual</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested1"
+              id="serviceRequested"
+              value="automation"
+            />
+            <label for="automation">Automation</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested2"
+              id="serviceRequested"
+              value="cctv"
+            />
+            <label for="cctv">CCTV</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested3"
+              id="serviceRequested"
+              value="digitalSignage"
+            />
+            <label for="digitalSignage">Digital Signage</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested4"
+              id="serviceRequested"
+              value="fiber"
+            />
+            <label for="fiber">Fiber Optic</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested5"
+              id="serviceRequested"
+              value="security"
+            />
+            <label for="security">Security</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested6"
+              id="serviceRequested"
+              value="pos"
+            />
+            <label for="pos">Point of Sale</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested7"
+              id="serviceRequested"
+              value="telecom"
+            />
+            <label for="telecom">Telecom/VOIP</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested8"
+              id="serviceRequested"
+              value="lanNetwork"
+            />
+            <label for="lanNetwork">LAN Network</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="serviceRequested9"
+              id="serviceRequested"
+              value="wirelessNetwork"
+            />
+            <label for="wirelessNetwork">Wireless Network</label>
+          </div>
+        </fieldset>
+        <textarea
+          name="message"
+          id="message"
+          cols="45"
+          rows="5"
+          placeholder="Additional notes regarding request of service"
+        ></textarea>
+        <input type="submit" id="submitRequest" value="Submit" />
+      </form>
+      <footer>
+        Copyright &copy; <br />
+        Gig Speed Networks LLC
+      </footer>
+    </section>
+  </body>
+</html>
