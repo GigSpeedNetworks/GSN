@@ -4,7 +4,7 @@
   line-height: 1.8;
   box-sizing: border-box;
 }
-nav {
+.landing_page {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
@@ -14,12 +14,12 @@ nav {
     url(images/earthbanner.jpg);
   background-position: center;
   background-size: cover;
-}
-header {
-  display: block;
   text-align: center;
   font-size: 2rem;
   color: rgba(245, 245, 245, 0.795);
+}
+.landing_page img {
+  margin: 40px auto;
 }
 .landing_page p {
   font-size: 1.6rem;
@@ -28,7 +28,6 @@ header {
   display: block;
   text-align: center;
   font-size: 1.6rem;
-  margin: 14% 5%;
   color: rgba(245, 245, 245, 0.795);
 }
 .wrapper {
@@ -52,6 +51,7 @@ h2 {
   font-size: 2rem;
   color: rgba(1, 1, 49, 1);
 }
+/*  service section row   */
 .service-columns {
   display: flex;
   flex-direction: row;
@@ -91,6 +91,7 @@ h2 {
 .careers p {
   padding-bottom: 15px;
 }
+/*    Buttons   */
 .button {
   text-decoration: none;
   background-color: dodgerblue;
@@ -109,6 +110,7 @@ h2 {
   color: rgba(1, 1, 49, 1);
   cursor: pointer;
 }
+/*      Quote form     */
 .requestForm {
   background-image: linear-gradient(
       rgba(1, 1, 49, 0.685),
@@ -161,6 +163,7 @@ textarea {
   color: rgba(245, 245, 245, 0.795);
   text-align: center;
 }
+/*   Thank you page   */
 .thankYou {
   margin-top: 40vh;
   height: 100vh;
