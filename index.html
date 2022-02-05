@@ -98,9 +98,180 @@
           <em> Bitcoin, Bitcoin Cash, Monero,</em>
           and other forms of cryptocurrency as payment methods.
         </p>
-        <a class="button" href="pages/requestForm.html">Request Quote</a>
+        <button class="quotesModalbtn" id="quotesModalbtn">
+          Request Quote
+        </button>
       </section>
-      <div class="modal" id="quotesModal"></div>
+      <div class="modal" id="modal">
+        <div class="modalQuotes" id="modalQuotes">
+          <form
+            action="https://formsubmit.co/82279663b05bbb711d9b5a9779921552"
+            method="POST"
+            autocomplete="on"
+          >
+            <span class="closebtn" id="closebtn">&times;</span>
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.gigspeednetworks.com/pages/thanks.html"
+            />
+            <div class="information">
+              <label for="companyName" id="companyName">Company Name</label>
+              <input
+                type="text"
+                name="companyName"
+                id="companyName"
+                autofocus
+              />
+
+              <label for="firstName" id="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" required />
+
+              <label for="lastName" id="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" required />
+
+              <label for="tele" id="tele">Telephone Number</label>
+              <input type="tel" name="tele" id="tele" />
+
+              <label for="email" id="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <fieldset class="serviceType">
+              <legend>Service Type</legend>
+              <div>
+                <input
+                  type="radio"
+                  name="design"
+                  id="serviceType"
+                  value="design"
+                />
+                <label for="design">Design</label>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  name="serviceType"
+                  id="serviceType"
+                  value="installation"
+                />
+                <label for="installation">Install</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="repair"
+                  id="serviceType"
+                  value="repair"
+                />
+                <label for="repair">Repair</label>
+              </div>
+            </fieldset>
+            <fieldset class="serviceRequested">
+              <legend>Services Requested</legend>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested"
+                  id="serviceRequested"
+                  value="av"
+                />
+                <label for="av">Audio/Visual</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested1"
+                  id="serviceRequested"
+                  value="automation"
+                />
+                <label for="automation">Automation</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested2"
+                  id="serviceRequested"
+                  value="cctv"
+                />
+                <label for="cctv">CCTV</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested3"
+                  id="serviceRequested"
+                  value="digitalSignage"
+                />
+                <label for="digitalSignage">Digital Signage</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested4"
+                  id="serviceRequested"
+                  value="fiber"
+                />
+                <label for="fiber">Fiber Optic</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested5"
+                  id="serviceRequested"
+                  value="security"
+                />
+                <label for="security">Security</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested6"
+                  id="serviceRequested"
+                  value="pos"
+                />
+                <label for="pos">Point of Sale</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested7"
+                  id="serviceRequested"
+                  value="telecom"
+                />
+                <label for="telecom">Telecom/VOIP</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested8"
+                  id="serviceRequested"
+                  value="lanNetwork"
+                />
+                <label for="lanNetwork">LAN Network</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="serviceRequested9"
+                  id="serviceRequested"
+                  value="wirelessNetwork"
+                />
+                <label for="wirelessNetwork">Wireless Network</label>
+              </div>
+            </fieldset>
+            <textarea
+              name="message"
+              id="message"
+              cols="45"
+              rows="5"
+              placeholder="Additional notes regarding request of service"
+            ></textarea>
+            <input type="submit" id="submitRequest" value="Submit" />
+          </form>
+        </div>
+      </div>
       <section class="careers">
         <h2>Careers</h2>
         <p>
@@ -109,9 +280,97 @@
           our company. Email your resume with position applying for in the
           subject line.
         </p>
-
-        <a class="button" href="mailto:rbriggs@gigspeednet.com">Apply</a>
+        <button class="careerModalBtn" id="careerModalBtn">Apply Here</button>
       </section>
+      <div class="modalTwo" id="modalTwo">
+        <div class="careerModalContent" id="careerModalContent">
+          <span class="closebtnTwo" id="closebtnTwo">&times;</span>
+          <form
+            class="careerForm"
+            action="https://formsubmit.co/hr@gigspeednet.com"
+            method="POST"
+            autocomplete="on"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.gigspeednetworks.com/pages/thanks.html"
+            />
+            <label for="firstName" id="firstName">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              autofocus
+              required
+            />
+            <label for="lastName" id="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required />
+            <label for="email" id="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <label for="tel" id="tel">Telephone</label>
+            <input type="tel" name="tel" id="tel" required />
+            <div class="homeaddress">
+              <label for="address" id="address">Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Street"
+                required
+              />
+              <input
+                type="text"
+                name="addressTwo"
+                id="address"
+                placeholder="Apt, Unit, etc..."
+              />
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="City"
+                required
+              />
+              <input
+                type="text"
+                name="State"
+                id="state"
+                placeholder="State"
+                required
+              />
+              <input
+                type="text"
+                name="zipcode"
+                id="zipcode"
+                placeholder="Zipcode"
+                maxlength="5"
+                size="5"
+                required
+              />
+            </div>
+            <label for="position" id="position">Position</label>
+            <select name="postion" id="position" required>
+              <option value="" disabled selected hidden>Select Position</option>
+              <option value="technician">Technician</option>
+              <option value="sdr">Sales Dev Rep</option>
+              <option value="fieldManager">Field Manager</option>
+              <option value="accountManager">Account Manager</option>
+              <option value="salesEngineer">Sales Engineer</option>
+            </select>
+            <label for="resume" id="resume">Upload Resume</label>
+            <input
+              type="file"
+              name="resume"
+              id="resume"
+              accept=".pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+              required
+            />
+            <input type="submit" id="submitRequest" value="Submit" />
+          </form>
+        </div>
+      </div>
       <section class="about">
         <h2>About</h2>
         <p>
@@ -142,5 +401,6 @@
         Gig Speed Networks LLC
       </footer>
     </div>
+    <script src="/js/main.js"></script>
   </body>
 </html>
