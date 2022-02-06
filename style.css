@@ -218,9 +218,19 @@ button:hover {
   margin-bottom: 10px;
 }
 /*   Thank you page   */
+.requestForm {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(1, 1, 49, 0.685),
+      rgba(1, 1, 49, 0.774)
+    ),
+    url(images/earthbanner.jpg);
+  background-position: center;
+  background-size: cover;
+}
 .thankYou {
-  margin-top: 40vh;
-  height: 100vh;
+  margin-top: 20vh;
   color: whitesmoke;
   text-align: center;
 }
