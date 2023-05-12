@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .landing_page {
-  min-height: 100vh;
+  min-height: 60dvh;
   width: 100%;
   background-image: linear-gradient(
       rgba(1, 1, 49, 0.685),
