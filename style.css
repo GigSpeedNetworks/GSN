@@ -1,5 +1,5 @@
 * {
-  font-family: "Oswald", sans-serif;
+  font-family: oswald, sans-serif;
   margin: 0;
   line-height: 1.8;
   box-sizing: border-box;
@@ -20,15 +20,31 @@
 }
 .landing_page img {
   margin: 40px auto;
+
 }
 .landing_page p {
   font-size: 1.6rem;
+}
+@media (max-width: 550px) {
+  .logo {
+    width: 60dvh;
+    max-width: 40dvh;
+  }
+}
+.logo {
+  width: 60dvh;
+  max-width: 40dvh;
+  margin: 20px auto;
 }
 .landing {
   display: block;
   text-align: center;
   font-size: 1.6rem;
   color: rgba(245, 245, 245, 0.795);
+}
+.cta-btn {
+  padding: 2dvh;
+
 }
 .wrapper {
   background-color: #f8f8ff;
@@ -41,9 +57,10 @@
 .careers,
 .about,
 .contact {
+  max-width: 99dvh;
+  margin: 10px  auto;
   background-color: rgba(1, 1, 49, 0.1);
   border-radius: 10px;
-  margin: 10px;
   padding: 5%;
 }
 h2 {
@@ -56,9 +73,11 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-basis: 31%;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 .service-col {
+  max-width: 43dvh;
   margin: 5px;
   padding: 5px;
 }
@@ -84,7 +103,7 @@ h2 {
   .service-columns {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 .quote p,

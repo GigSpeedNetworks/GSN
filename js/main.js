@@ -2,6 +2,7 @@
 var modal = document.getElementById('modal');
 var modalTwo = document.getElementById('modalTwo');
 var quotesBtn = document.getElementById('quotesModalbtn');
+var quotesBtntwo = document.getElementById('quotesModalbtntwo');
 var careerBtn = document.getElementById('careerModalBtn');
 var closeBtn = document.getElementById('closebtn');
 var closeBtnTwo = document.getElementById('closebtnTwo');
@@ -10,6 +11,9 @@ var careerForm = document.getElementById('careerModalContent');
 
 function openModal(evt){   
     if(evt.target == quotesBtn){
+        modal.style.display = 'block';
+    }
+    else if(evt.target == quotesBtntwo){
         modal.style.display = 'block';
     }
     else if(evt.target == careerBtn){
@@ -32,6 +36,7 @@ function outsideClick(e){
         modalTwo.style.display = 'none';}
 }
 quotesBtn.addEventListener('click', openModal);
+quotesBtntwo.addEventListener('click', openModal);
 careerBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 closeBtnTwo.addEventListener('click', closeModal);

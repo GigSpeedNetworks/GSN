@@ -1,8 +1,19 @@
-body {
+.privacyPolicy {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    justify-content: flex-start;
+    width: 40dvh;
     margin: 0 auto;
-    align-items: center;
     background-color: #f8f8ff;
+    font-family: Oswald, sans-serif;
+}
+.privacyPolicy img {
+    width: 100dvh;
+    max-width: 40dvh;
+    margin: 2dvh auto;
+}
+.logoHome:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.7s; 
 }
